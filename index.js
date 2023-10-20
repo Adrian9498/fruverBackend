@@ -19,7 +19,7 @@ async function iniciarServidor(){
     app.use(express.urlencoded({extended: false}))
     app.use(router)
     app.listen(3000)
-    console.log("Servidor funcionando en el puerto 3000")
+    console.log("Servidor prendido en el puerto 3000")
 }
 
 iniciarServidor()
